@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>React Hello World</title>
+</head>
+<body>
+    <div id="resumé"></div>
+    <script
+    src="https://unpkg.com/react@16/umd/react.development.js">
+  </script>
+  <script
+    src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
+  </script>
+
+<script
+src="https://unpkg.com/babel-standalone@6/babel.min.js">
+</script>
+
+  <script type= "text/babel"> 
+
+ function App() {
+    return (
+<div>
+    <header>
+        <img src="https://m.media-amazon.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_.jpg" width= "100" height = "150" alt=" sally student"/>
+        <h1> Sally Student </h1> 
+    </header>
+    <address>
+        <p><a href="mailto:sallystudent@gmail.com">Email Me</a></p> 
+        <p> (612)-123-4567 </p>
+    </address>
+    <main>
+        <h2> Education </h2>
+        <ul>
+            <li> High School Of America</li>
+            <li> Columbia University</li>
+        </ul>
+        <h2> Work Experience </h2>
+        <table>
+    <thead>
+      <tr>
+        <th>Dates</th>
+        <th>Work</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2015-2017</td>
+        <td>Frontend Developer at Amazon</td>
+        <td>Lorem ipsum dolor sit amet.</td>
+      </tr>
+      <tr>
+        <td>2017-2018</td>
+        <td>Backend Developer at Google</td>
+        <td>Lorem ipsum dolor sit amet.</td>
+      </tr>
+      <tr>
+        <td>2018-current</td>
+        <td>Web Designer at Apple</td>
+        <td>Lorem ipsum dolor sit amet.</td>
+      </tr>
+    </tbody>
+  </table>
+  <h2> Skills </h2>
+  <table cellspacing="10">
+    <tr>
+      <td>iOS Development</td>
+      <td>⭐⭐⭐⭐⭐</td>
+      <td>Web Development</td>
+      <td>⭐⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>Photography</td>
+      <td>⭐⭐⭐⭐</td>
+      <td>Painting</td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+  </table>
+    </main>
+</div>
+
+    
+    )}
+
+ReactDOM.render(
+  <App/>,
+  document.querySelector('#resumé')
+);
+  </script>
+
+</body>
+</html>
